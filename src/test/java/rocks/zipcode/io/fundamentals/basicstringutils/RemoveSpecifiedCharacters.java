@@ -18,6 +18,7 @@ public class RemoveSpecifiedCharacters {
     @Test
     public void test3() {
         test("Mississippi", "is", "Mpp");
+
     }
 
     @Test

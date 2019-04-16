@@ -22,7 +22,9 @@ public class BasicStringUtils {
      * @return identical string with lowercase and uppercase vowels removed
      */
     public static String removeAllVowels(String string) {
-        return null;
+        return string.replaceAll("[AEIOUaeiou]", "");
+
+
     }
 
     /**
@@ -31,6 +33,7 @@ public class BasicStringUtils {
      * @return
      */
     public static String removeSpecifiedCharacters(String string, String charactersToRemove) {
-        return null;
+      return string.replaceAll(charactersToRemove, "");
+
     }
 }

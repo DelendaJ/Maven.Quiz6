@@ -10,5 +10,6 @@ public class GenericUtils {
      */
     public static <T> T[] toArray(Collection<T> collection) {
         return null;
+
     }
 }

@@ -17,8 +17,10 @@ public class StringUtils {
         // get power-set of range
 
         // for every set in power-set
-            // uppercase indices of string using set
+        // uppercase indices of string using set
         return null;
+
+
     }
 
     /**
@@ -37,8 +39,10 @@ public class StringUtils {
      * @return near-identical string with `valueToBeInserted` inserted at `index`
      */
     public static String insertAtIndex(String stringToBeManipulated, String valueToBeInserted, Integer index) {
-        return null;
+
+        return stringToBeManipulated.substring(0, index) + valueToBeInserted + stringToBeManipulated.substring(index);
     }
+
 
     /**
      * @param stringToBeManipulated - string to be evaluated
@@ -47,6 +51,6 @@ public class StringUtils {
      * @return near-identical string with character at `index` replaced with `replacementValue`
      */
     public static String replaceAtIndex(String stringToBeManipulated, Character replacementValue, Integer index) {
-        return null;
+        return stringToBeManipulated.substring(0, index) + replacementValue + stringToBeManipulated.substring(index + 1);
     }
 }

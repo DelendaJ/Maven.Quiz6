@@ -1,6 +1,9 @@
 package rocks.zipcode.io.collections;
 
+import java.lang.reflect.Array;
+import java.util.ArrayList;
 import java.util.Collection;
+import java.util.Collections;
 import java.util.List;
 
 public class CollectionUtils {
@@ -11,7 +14,8 @@ public class CollectionUtils {
      * @return list with identical contents
      */
     public static <E> List<E> toList(Collection collection) {
-        return null;
+      return null;
+
     }
 
     /**
